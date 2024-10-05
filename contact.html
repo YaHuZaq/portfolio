@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+
+    body{
+        background: #999;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+    }
+    .container{
+        
+      
+    }
+    .container .form-container{
+      
+       text-align: center; 
+
+    }
+
+    .container .form-container h3{
+       font-size: 3rem;
+    }
+
+    .container .form-container form{
+        padding: 70px 20px;
+       
+    }
+    .container .form-container input{
+        padding: 10px 180px;
+        font-family: "Poppins", sans-serif;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+    .container .form-container input::placeholder{
+        color: #123;
+        font-size: 17px;
+        position: absolute;
+        margin-left: -130px;
+        margin-top: -5px;
+    }
+    .container .form-container input::placeholder:hover{
+        color: #123;
+        font-size: 22px;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: -5px;
+    }
+    .container .form-container textarea{
+        padding: 40px 195px;
+        font-family: "Poppins", sans-serif;
+        border-radius: 10px;
+    }
+     .container .form-container textarea::placeholder{
+        color: #123;
+        font-size: 20px;
+        position: absolute;
+        margin-left: -130px;
+        margin-top: -25px;
+     }
+    .container .form-container button{
+        padding: 10px 232px;
+        border-radius: 10px;
+        background: #935;
+        border: none;
+        outline: none;
+        font-size: 20px;
+    }
+    
+
+    .cnt{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+
+    .location{
+        padding: 2% 30px;
+        text-align: center;
+        border-radius: 3px;
+        
+    }
+    .location p{
+        font-size: 1.5rem;
+    }
+
+    .call{
+        padding: 2% 30px;
+        text-align: center;
+        border-radius: 3px;
+        
+    }
+    .call p{
+        font-size: 1.5rem;
+    }
+    .email{
+        padding: 2% 30px;
+        text-align: center;
+        border-radius: 3px;
+       ;
+    }
+    .email p{
+        font-size: 1.5rem;
+        
+
+    }
+
+    #wan{
+    font-size: 20px;  
+    color: #999;
+        
+    }
+
+
+  .social{
+    margin-top: 30px;
+   text-align: center;
+   background: #123;
+    width: 100%;
+    height: 250px;
+}
+
+  .social span img{
+    margin: 10px;
+    font-size: 35px;
+    margin-top: 30px;
+  
+ }
+
+ @media (max-width:700px) {
+    .container .form-container h3{
+       font-size: 2rem;
+    }
+
+    .cnt{
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        gap: 180px;
+    }
+    .location{
+        padding: 8% 5px;
+        text-align: center;
+        background: #eee;
+    }
+    .location p{
+        font-size: 1.5rem;
+    }
+
+    .call{
+        padding: 8% 5px;
+        text-align: center;
+        background: #eee;
+        margin-top: 80px;
+    }
+    .call p{
+        font-size: 1.5rem;
+    }
+    .email{
+        padding: 8% 5px;
+        text-align: center;
+        background: #eee;
+        margin-top: 80px;
+    }
+    .email p{
+        font-size: 1.5rem;
+        
+
+    }
+    @media (max-width:530px) {
+       
+        .container .form-container h3{
+       font-size: 1.5rem;
+    }
+
+        .container .form-container form{
+        padding: 70px 2px;
+       
+    }
+    .container .form-container input{
+        padding: 10px 80px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+    .container .form-container input::placeholder{
+        color: #123;
+        font-size: 17px;
+        position: absolute;
+        margin-left: -70px;
+        margin-top: -2px;
+    }
+    .container .form-container textarea{
+        padding: 40px 90px;
+        border-radius: 5px;
+    }
+    .container .form-container textarea::placeholder{
+        color: #123;
+        font-size: 17px;
+        position: absolute;
+        margin-left: -80px;
+        margin-top: -32px;
+    }
+    .container .form-container button{
+        padding: 10px 142px;
+        border-radius: 5px;
+        background: #935;
+        border: none;
+        outline: none;
+        font-size: 20px;
+    }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h3>Lets talk about your project </h3>
+            <form action="">
+                <input type="text" placeholder="Name" required><br><br>
+                <input type="email" placeholder="Email" required><br><br>
+                <textarea name="massage" placeholder="Message" required></textarea><br><br>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="cnt">
+
+    <div class="location">
+        <img src="location1.png" width="150px">
+        <p>Saminu Turaki Street Darazo </p>
+    </div>
+
+
+    <div class="call">
+        <img src="call1.png" width="150px">
+       <p> 08135626974</p>
+    </div>
+
+
+    <div class="email">
+        <img src="mail.png" width="150px">
+      <p> mail me</p>
+    </div>
+
+</div>
+
+
+<div class="social">
+            
+    <span><img src="facebook.png" width="40px"></span>
+    <span><img src="insta.png" width="40px"></span>
+    <span><img src="whatsapp.png" width="40px"></span>
+      <br><br>
+
+    <div class="text">
+  <b id="wan">All Right Reserve 2023/2024</b> <br><br>
+    <u class="too" style="font-size: 25px; font-size: 2rem;  color: #999;">D Global Tech</u>
+</div>
+ </div>
+
+</body>
+</html>

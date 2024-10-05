@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <img src="side3.png" onclick="show()" width="40px" id="tree">
+            <nav id="here">
+                <img src="cancel.png" onclick="hide()" id="cnc"> <br>
+                <a href="#">Home</a>
+                <a href="service.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="skill.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+           
+        </div>
+      
+    </header>
+
+
+   <div  data-aos="fade-in" class="container">
+     <div class="main-container">
+        <div class="content0">
+            <img src="code3.png" class="sat">
+            <img src="img1.jpg" class="imgone">
+         </div>
+
+     <div class="content1">
+        <h2>Hi</h2>
+        <p>I am Yahuza Usman i specialised on creating dynamic website an web application, with friendly userInterface.<br> 
+            And responsiveness
+            with android app Development using the popular JS framework React native.
+        </p> <br>
+            <button>Hire Me</button>
+     </div>
+    </div>
+   </div>
+
+
+   <div class="social">
+            
+    <span><img src="facebook.png" width="40px"></span>
+    <span><img src="insta.png" width="40px"></span>
+    <span><img src="whatsapp.png" width="40px"></span>
+      <br><br>
+
+    <div class="text">
+  <b id="wan">All Right Reserve 2023/2024</b> <br><br>
+    <u class="too" style="text-decoration: none;">D Global Tech</u>
+</div>
+ </div>
+
+
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+
+  <script>
+        function show() {
+            document.getElementById("here").style.display ="flex";
+            document.getElementById("tree").style.display ="none";
+        }
+        function hide() {
+            document.getElementById("here").style.display ="none";
+            document.getElementById("tree").style.display ="block";
+        }
+  </script>
+</body>
+</html>
